@@ -21,7 +21,6 @@ createRoot(document.getElementById("root")).render(
     <AuthContextProvider>
       <StrictMode>
         <App />
-        <Toaster />
       </StrictMode>
     </AuthContextProvider>
   </QueryClientProvider>,

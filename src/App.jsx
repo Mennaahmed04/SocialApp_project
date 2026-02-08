@@ -39,7 +39,16 @@ export default function App() {
 
   return (
     <>
-      <Toaster position="top-right" reverseOrder={false} />
+      <Toaster 
+  position="top-center"
+  reverseOrder={false}
+  toastOptions={{
+    duration: 3000, // وقت الظهور
+  }}
+  containerStyle={{}}
+  // ده هيخلي مفيش أكتر من توست واحد يظهر في نفس اللحظة
+  limit={1} 
+/>
       <RouterProvider router={routes} />
     </>
   );
