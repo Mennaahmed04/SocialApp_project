@@ -1,0 +1,43 @@
+/* src/App.css */
+
+/* #root {
+
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left; 
+} */
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container {
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* لمنع ظهور سكرول عرضي */
+}
+body {
+  margin: 0;
+  display: block;
+  place-items: unset;
+  min-width: 100vw;
+  min-height: 100vh;
+  
+  /* الألوان الافتراضية (Light Mode) */
+  background-color: #f0f2f5; /* لون خلفية فيسبوك الفاتحة */
+  color: #1c1e21;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* عندما يكون كلاس .dark مفعلاً */
+.dark body {
+  background-color: #18191a; /* لون خلفية فيسبوك الغامقة */
+  color: #e4e6eb;
+}
